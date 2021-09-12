@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#root {
+    height: 100vh;
+}
+.red2 {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+}
