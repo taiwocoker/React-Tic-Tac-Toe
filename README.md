@@ -2,16 +2,23 @@
 
 > The first player, who shall be designated a heart sign, has 3 possible strategically distinct positions to mark during the first turn, This applies also to the second player that also has a cross sign. Each player takes turn to play until It has the same sign Vertically or diagonally or horizontally.Then there is a winner OR a draw.
 
+Future Improvements:
+- To show the number of wins for each player until there is a reset.
+- To have more than 2 players.
 
-
-![screenshot]()
+![screenshot](./capture.PNG)
+![screenshot](./capture2.PNG)
 
  View the app live [here]()
  
 ## Built With
 
-- Javascript, HTML and CSS
-- VSCode, Linters
+- React
+- Redux
+- Styled-components
+- React-Redux
+- CSS
+- VSCode
 
 
 ## Getting Started
@@ -46,7 +53,6 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
 
 ## Show your support
 

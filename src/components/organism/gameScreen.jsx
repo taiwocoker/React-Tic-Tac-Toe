@@ -62,14 +62,14 @@ const GameScreen = ({ children }) => {
               <Button
                 title='reset game'
                 onClick={resetGame}
-                className={'Welcome__btn-color red'}
+                red
               />
             )}
             {gameIsPlaying && (
               <Button
                 title='play again'
                 onClick={restartGame}
-                className={'Welcome__btn-color green'}
+                green
               />
             )}
           </div>
@@ -90,15 +90,6 @@ const GameScreenStyling = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  .green {
-    background-color: #66b366;
-    color: #fff;
-  }
-  .red {
-    background-color: transparent;
-    color: red;
-    border: 1px solid red;
-  }
   .main-form {
     max-width: 90vh;
     width: 100%;
@@ -130,23 +121,7 @@ const GameScreenStyling = styled.div`
       justify-content: center;
       padding: 25px 0 10px;
     }
-    &__btn-color {
-      //   color: red;
-      //   border-color: #dc3545;
-      padding: 0.375rem 0.75rem;
-      font-size: 1rem;
-      line-height: 1.5;
-      border-radius: 0.25rem;
-      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-      display: inline-block;
-      font-weight: 400;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: middle;
-      margin: 0 10px;
-      border-radius: 8px;
-    }
+    
   }
   @media (max-width: 767px) {
     .Welcome__name {

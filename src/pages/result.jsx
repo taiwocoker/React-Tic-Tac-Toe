@@ -59,14 +59,14 @@ const GameResult = (props) => {
               <Button
                 title='reset game'
                 onClick={resetGame}
-                className={'Result__btn-color red'}
+                red
               />
             }
             {
               <Button
                 title='play again'
                 onClick={restartGame}
-                className={'Result__btn-color green'}
+                green
               />
             }
           </div>
@@ -87,18 +87,18 @@ const ResultStyling = styled.div`
   background-position: center;
 //   border: 1px solid black;
   height: 100vh;
-  .green {
-    background-color: #66b366;
-    color: #fff;
-  }
+  // .green {
+  //   background-color: #66b366;
+  //   color: #fff;
+  // }
   .heading h2{
       margin-bottom: 15px;
   }
-  .red {
-    background-color: transparent;
-    color: red;
-    border: 1px solid red;
-  }
+  // .red {
+  //   background-color: transparent;
+  //   color: red;
+  //   border: 1px solid red;
+  // }
   .Result {
     width: 50%;
     height: 50vh;
@@ -125,21 +125,21 @@ const ResultStyling = styled.div`
     //   border: 1px solid red;
       padding: 20px 0;
     }
-    &__btn-color {
-      padding: 0.375rem 0.75rem;
-      font-size: 1rem;
-      line-height: 1.5;
-      border-radius: 0.25rem;
-      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-      display: inline-block;
-      font-weight: 400;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: middle;
-      margin: 0 10px;
-      border-radius: 8px;
-    }
+    // &__btn-color {
+    //   padding: 0.375rem 0.75rem;
+    //   font-size: 1rem;
+    //   line-height: 1.5;
+    //   border-radius: 0.25rem;
+    //   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    //     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    //   display: inline-block;
+    //   font-weight: 400;
+    //   text-align: center;
+    //   white-space: nowrap;
+    //   vertical-align: middle;
+    //   margin: 0 10px;
+    //   border-radius: 8px;
+    // }
   }
   @media (max-width: 767px){
      .Result {
