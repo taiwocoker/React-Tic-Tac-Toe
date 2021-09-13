@@ -1,6 +1,6 @@
 # React Tic-Tac-Toe
 
-> The first player, who shall be designated a heart sign, has 3 possible strategically distinct positions to mark during the first turn, This applies also to the second player that also has a cross sign. Each player takes turn to play until It has the same sign Vertically or diagonally or horizontally.Then there is a winner OR a draw.
+> The first player, who shall be designated an "X" sign, has 3 possible strategically distinct positions to mark during the first turn, This applies also to the second player that also has a "O" sign. Each player takes turn to play until It has the same sign Vertically or diagonally or horizontally.Then there is a winner OR a draw.
 
 Future Improvements:
 - To show the number of wins for each player until there is a reset.
