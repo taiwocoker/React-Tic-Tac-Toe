@@ -39,17 +39,7 @@ export const getAllWinsFromBoard = (boardSize) => {
     return solutions;
 };
 
-const boardMatchSolutionShape = (boardSize, boardArr) => {
-    let packSelections = [];
-    return boardArr.reduce((res, cur, i) => {
-        packSelections.push(cur);
-        if ((i + 1) % boardSize === 0) {
-            res.push(packSelections);
-            packSelections = [];
-        }
-        return res;
-    }, []);
-};
+
 
 /**
  *
